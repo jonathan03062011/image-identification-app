@@ -25,3 +25,19 @@ function modelLoaded()
     console.log("model loaded");
 }
 
+function check()
+{
+    img=document.getElementById("capturedimage");
+    classifier.classify(img,gotResult);
+}
+function gotResult(error,results)
+{
+   if(error)
+   {
+       console.log(error)
+   }
+   else{
+        console.log(results);
+        
+   }
+}

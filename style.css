@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+    color: azure;
+    font-weight: bold;
+}
+.header{
+    font-size: 20px;
+    width: 80%;
+}
+.listofobjects,#objectname,#accuracyobject{
+    color: chartreuse;
+    font-size: larger;
+}
+#camera{
+    width: 360px;
+    height: 300px;
+    border: 2px magenta solid;
+}
